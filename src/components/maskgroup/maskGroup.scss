@@ -1,0 +1,47 @@
+@import '../../styles/variables.scss';
+
+.mask-group {
+    height: 495px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url('../../resource/images/paper-1074131_1920.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 110px;
+}
+
+.best__items {
+    display: flex; /* Устанавливает флекс-контейнер */
+    justify-content: center; /* Центрирует элементы по горизонтали */
+    gap: 20px; /* Устанавливает расстояние между элементами */
+}
+
+.best_item {
+    margin-top: 39px;
+    padding: 22px;
+    border-radius: 8px;
+    width: 220px;
+    height: 240px;
+    background: rgba(255, 255, 255, 0.65);
+    position: relative;
+}
+
+.info-coffe {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    position: absolute;
+    bottom: 53px;
+}
+
+.price {
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    position: absolute;
+    bottom: 22px;
+    right: 22px;
+}

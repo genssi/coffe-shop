@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap");
+.button {
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 700;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  width: 120px;
+  height: 30px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background: rgba(196, 196, 196, 0);
+  cursor: pointer;
+}
+
+* {
+  font-family: "Merienda", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, li, dl {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.app {
+  width: 1441px;
+  height: 1805px;
+  margin: 0 auto;
+  padding: 30px 0 20.7px 0;
+  position: relative;
+}/*# sourceMappingURL=style.css.map */
